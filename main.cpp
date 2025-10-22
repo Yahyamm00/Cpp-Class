@@ -1,3 +1,4 @@
+
 #include <iostream>
 using namespace std;
 
@@ -14,13 +15,13 @@ public:
     }
 
     void displayInfo() {
-        cout << "Brand: " << brand << ", Model: " << model << ", Year: " << year << endl;
+        cout << "Brand: " << brand << "     Model: " << model << "     Year: " << year << endl;
     }
 };
 
 int main() {
-    Car car1("BMW", "X5", 2020);
-    Car car2("Toyota", "Corolla", 2021);
+    Car car1("Porche", "Carerra GT", 2007);
+    Car car2("Lexus", "LFA", 2012);
 
     car1.displayInfo();
     car2.displayInfo();
