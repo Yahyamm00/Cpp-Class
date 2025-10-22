@@ -19,7 +19,6 @@ public:
 };
 
 int main() {
-   (instances) of the class
     Car car1("BMW", "X5", 2020);
     Car car2("Toyota", "Corolla", 2021);
 
